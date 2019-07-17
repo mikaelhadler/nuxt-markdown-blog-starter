@@ -9,10 +9,10 @@ const I18N = {
       file: 'en/index.js'
     },
     {
-      code: 'es',
-      iso: 'es-ES',
-      name: 'Español',
-      file: 'es/index.js'
+      code: 'pt',
+      iso: 'pt-BR',
+      name: 'Portuguese',
+      file: 'pt/index.js'
     }
   ],
   lazy: true,

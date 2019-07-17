@@ -1,6 +1,16 @@
+/* 
+
+const fs = require('fs')
+const path = require('path')
+
+const allPosts = fs.readdirSync(__dirname +'/blog' , (err, files) => files)
+
+const getArrayPosts = (posts) => {
+  return posts.map(post => post.replace(/\.md/i,''));
+}
+
+export default getArrayPosts(allPosts)
+*/
 export default [
-  'blog-using-vue-nuxt-markdown',
-  'vuex-what-is-when-use-it',
-  'design-and-code-skeletons-screens',
-  'bacon-ipsum',
+  'using-flux-git-flow'
 ]
